@@ -1,0 +1,40 @@
+body {
+    background-image: url("immagini/liste_fantacalcio.jpg");
+    background-size: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#title {
+    color: rgb(245, 241, 241);
+}
+
+input,
+button {
+    padding: 1em;
+    
+}
+button {
+    background-color: rgb(98, 103, 246);
+    color: rgb(219, 203, 203);
+    font-weight: bold;
+    
+}
+
+.list-item {
+    border: 2px solid rgb(239, 238, 235);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(64, 56, 205);
+    color: rgb(238, 234, 228);
+    font-size: 0.8em;
+}
+
+.list-item.selected {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(21, 2, 62);
+    text-decoration: line-through;
+}
